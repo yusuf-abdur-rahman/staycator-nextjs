@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .btn-primary {
+      @apply m-2 p-2 ring-2 bg-yellow-500 rounded-2xl font-semibold tracking-wide text-white md:text-2xl md:p-3
+    }
+  }
